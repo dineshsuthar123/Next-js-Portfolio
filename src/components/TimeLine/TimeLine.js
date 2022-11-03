@@ -44,9 +44,10 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider divider colorAlt />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        I am Final year student persuing Electrical Engineering from Indian Institute of Technology, Dharwad. I'm also a Frontend Developer and aspiring Full Stack developer from Indore, India, who is really passionate about learning and exploring new technologies. I'm currently learning React and exploring the Modern Web Development. I enjoy building cool stuffs.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -112,7 +113,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

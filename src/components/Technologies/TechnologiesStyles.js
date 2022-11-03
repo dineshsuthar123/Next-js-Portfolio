@@ -30,7 +30,7 @@ export const MainImage = styled.img`
 export const List = styled.ul`
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   margin: 3rem 0;
   
@@ -79,6 +79,14 @@ export const ListTitle = styled.h4`
   letter-spacing: 0.02em;
   margin-bottom: 4px;
 }
+`
+
+export const SkillsList = styled.div`
+  display: flex;
+  justify-items: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
 `
 
 export const ListParagraph = styled.p`
