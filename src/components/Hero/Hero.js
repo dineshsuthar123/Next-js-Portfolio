@@ -15,7 +15,7 @@ const Hero = (props) => (
         <SectionText>
           I am a frontend developer who is enthusiastic and passionate about modern Technologies and who really enjoys designing and building awesome websites.
         </SectionText>
-        <Button onClick={props.handleClick}>Resume</Button>
+        <Button onClick={() => window.location = 'https://drive.google.com/file/d/1fKrBRzMGAax6LXTmoqMtCuVu9VzdJSHF/view?usp=share_link'}>Resume</Button>
       </LeftSection>
     </Section>
   </>
