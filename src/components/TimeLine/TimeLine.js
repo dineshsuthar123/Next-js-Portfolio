@@ -47,7 +47,7 @@ const Timeline = () => {
       <SectionDivider divider colorAlt />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am Final year student persuing Electrical Engineering from Indian Institute of Technology, Dharwad. I'm also a Frontend Developer and aspiring Full Stack developer from Indore, India, who is really passionate about learning and exploring new technologies. I'm currently learning React and exploring the Modern Web Development. I enjoy building cool stuffs.
+        I am Final year student persuing Electrical Engineering from Indian Institute of Technology, Dharwad. I'm also a Frontend Developer as well as an aspiring Full Stack developer from Indore, India. I am really passionate about learning and exploring new technologies. I'm currently learning React and exploring the Modern Web Development. I enjoy building cool stuff.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
