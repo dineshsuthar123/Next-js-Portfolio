@@ -4,8 +4,8 @@ export const projects = [
     description: "An AI Translator for NGOs enables seamless multilingual communication using AI-powered real-time text and speech translation. It helps NGOs bridge language barriers, translate documents, and enhance global outreach, even in remote areas. ",
     image: '/images/1.png',
     tags: ['React', 'Redux', 'Tailwind CSS'],
-    source: 'https://github.com/dineshsuthar123/hack',
-    visit: 'https://ehkdxfmrkckczafy2zr9lr.streamlit.app/',
+    source: 'https://ehkdxfmrkckczafy2zr9lr.streamlit.app/',
+    visit: 'https://github.com/dineshsuthar123/hack',
     id: 0,
   },
   {
