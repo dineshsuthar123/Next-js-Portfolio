@@ -15,7 +15,10 @@ const Hero = (props) => (
         <SectionText>
           I am a aspiring java & blockchain developer who is enthusiastic and passionate about modern Technologies and who really enjoys designing and building awesome websites.
         </SectionText>
-        <Button onClick={() => window.location = 'https://drive.google.com/file/d/1nY9eEg0t9KZCnH9Pkrt7EfjDyEl42RyJ/view?usp=drivesdk'}>Resume</Button>
+        <Button onClick={() => window.open('/Dinesh_Suthar_Resume.pdf', '_blank')}>
+          Resume
+        </Button>
+
       </LeftSection>
     </Section>
   </>
