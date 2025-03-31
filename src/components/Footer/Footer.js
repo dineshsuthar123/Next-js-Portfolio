@@ -14,8 +14,8 @@ const Footer = () => {
         </LinkColumn> */}
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:rohitgourrg999@gmail.com">
-            rohitgourrg999@gmail.com
+          <LinkItem href="mailto:dinesh.suthar18sld@gmail.com">
+            dinesh.suthar18sld@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -24,13 +24,13 @@ const Footer = () => {
           <Slogan>Building one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/Rohitgour03">
+          <SocialIcons href="https://github.com/dineshsuthar123">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/rohitgour03/">
+          <SocialIcons href="https://www.linkedin.com/in/dinesh-suthar-45b555287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://twitter.com/Rohitgour03">
+          <SocialIcons href="https://twitter.com/Dinesh12839101">
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
         </SocialContainer>

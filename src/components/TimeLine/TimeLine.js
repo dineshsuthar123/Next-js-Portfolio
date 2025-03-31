@@ -19,7 +19,7 @@ const Timeline = () => {
 
     if (carouselRef.current) {
       const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
       scroll(carouselRef.current, scrollLeft);
     }
   }
@@ -47,7 +47,7 @@ const Timeline = () => {
       <SectionDivider divider colorAlt />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am Final year student persuing Electrical Engineering from Indian Institute of Technology, Dharwad. I'm also a Frontend Developer as well as an aspiring Full Stack developer from Indore, India. I am really passionate about learning and exploring new technologies. I'm currently learning React and exploring the Modern Web Development. I enjoy building cool stuff.
+        Hey, I'm Dinesh! 👨‍💻 A 4th-semester Computer Science Engineering student passionate about Java, problem-solving, and building impactful tech projects. Always learning, always innovating! 🚀
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

@@ -5,44 +5,44 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
+      <Link href="/" legacyBehavior>
+        <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
           <DiCssdeck size="3rem" /> <span>Portfolio</span>
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link href="#projects" legacyBehavior>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link href="#tech" legacyBehavior>
           <NavLink>Technologies</NavLink>
         </Link>
-      </li>        
+      </li>
       <li>
-        <Link href="#about">
+        <Link href="#about" legacyBehavior>
           <NavLink>About</NavLink>
         </Link>
-      </li>        
+      </li>
     </Div2>
-      <Div3>
-        <SocialIcons href="https://github.com/Rohitgour03">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/rohitgour03/">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://twitter.com/Rohitgour03">
-          <AiFillTwitterCircle size="3rem"/>
-        </SocialIcons>
-      </Div3>
-    </Container>
+    <Div3>
+      <SocialIcons href="https://github.com/dineshsuthar123">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/dinesh-suthar-45b555287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://twitter.com/Dinesh12839101">
+        <AiFillTwitterCircle size="3rem" />
+      </SocialIcons>
+    </Div3>
+  </Container>
 );
 
 export default Header;
