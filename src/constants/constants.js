@@ -13,8 +13,8 @@ export const projects = [
     description: "A Web app that allow users to add, choose & remove their favorite books from their digital library. The technologies used are HTML5, CSS & Vanilla JS and local storage Web API.",
     image: '/images/2.png',
     tags: ['HTML5', 'CSS', 'JavaScript', 'Local Storage API'],
-    source: 'https://github.com/dineshsuthar123/Digital-Library',
-    visit: 'https://digital-library-beta.vercel.app/',
+    source: 'https://digital-library-beta.vercel.app/',
+    visit: 'https://github.com/dineshsuthar123/Digital-Library',
     id: 1,
   },
   {
@@ -22,8 +22,8 @@ export const projects = [
     description: "A responsive E-commerce product webpage which allows users to view the product gallery, Add, view and remove the product items from the cart. The technologies used include HTML, CSS, Vanilla JS",
     image: '/images/3.png',
     tags: ['HTML5', 'CSS', 'JavaScript'],
-    source: 'https://github.com/dineshsuthar123/E-Commerce-Sneakers',
-    visit: 'https://e-commerce-sneakers-tau.vercel.app/',
+    source: 'https://e-commerce-sneakers-tau.vercel.app/',
+    visit: 'https://github.com/dineshsuthar123/E-Commerce-Sneakers',
     id: 2,
   },
   {
@@ -31,8 +31,8 @@ export const projects = [
     description: "A ToDo App in which users can add & remove the tasks, marks them as completed, can view all active and completed tasks. The tasks will remain saved in the tasklist",
     image: '/images/4.png',
     tags: ['HTML5', 'CSS', 'Javascript'],
-    source: 'https://github.com/dineshsuthar123/Todo-list',
-    visit: 'https://todo-list-pied-phi-22.vercel.app/',
+    source: 'https://todo-list-pied-phi-22.vercel.app/',
+    visit: 'https://github.com/dineshsuthar123/Todo-list',
     id: 3,
   },
 ];
