@@ -35,6 +35,16 @@ export const projects = [
     visit: 'https://github.com/dineshsuthar123/Todo-list',
     id: 3,
   },
+  ,
+  {
+    title: 'OmniBot',
+    description: "An AI-powered chatbot aggregator that combines YouTube summaries, real-time weather, image generation, and EV station lookup through 10+ APIs. A single interface for diverse digital tasks via natural language commands. 🤖✨",
+    image: '/images/5.png',
+    tags: ['Python3', 'Groq API', 'Discord.py', 'YouTube-Transcript-API', 'OpenWeatherMap API', 'OpenCage Geocoding', 'DALL·E Mini'],
+    source: 'https://todo-list-pied-phi-22.vercel.app/',
+    visit: 'https://github.com/dineshsuthar123/Todo-list',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
