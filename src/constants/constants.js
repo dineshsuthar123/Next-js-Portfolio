@@ -3,7 +3,7 @@ export const projects = [
     title: 'AI Translator For NGOs',
     description: "An AI Translator for NGOs enables seamless multilingual communication using AI-powered real-time text and speech translation. It helps NGOs bridge language barriers, translate documents, and enhance global outreach, even in remote areas. ",
     image: '/images/1.png',
-    tags: ['React', 'Redux', 'Tailwind CSS'],
+    tags: ['Python', 'Gemini-API'],
     source: 'https://ehkdxfmrkckczafy2zr9lr.streamlit.app/',
     visit: 'https://github.com/dineshsuthar123/hack',
     id: 0,
@@ -18,12 +18,12 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Sneakers',
-    description: "A responsive E-commerce product webpage which allows users to view the product gallery, Add, view and remove the product items from the cart. The technologies used include HTML, CSS, Vanilla JS",
-    image: '/images/3.png',
-    tags: ['HTML5', 'CSS', 'JavaScript'],
-    source: 'https://e-commerce-sneakers-tau.vercel.app/',
-    visit: 'https://github.com/dineshsuthar123/E-Commerce-Sneakers',
+    title: 'Personal-Financical-Tracker',
+    description: "A personal financial tracker is a tool that helps you monitor your income and expenses over time. ",
+    image: '/images/6.png',
+    tags: ['React', 'Next-JS', 'Tailwind', 'Javascript'],
+    source: 'https://personal-financial-tracker-three.vercel.app/',
+    visit: 'https://github.com/dineshsuthar123/Personal-Financial-Tracker',
     id: 2,
   },
   {
@@ -44,6 +44,15 @@ export const projects = [
     source: 'https://digital-library-beta.vercel.app/',
     visit: 'https://github.com/dineshsuthar123/Digital-Library',
     id: 4,
+  },
+  {
+    title: 'Sneakers',
+    description: "A responsive E-commerce product webpage which allows users to view the product gallery, Add, view and remove the product items from the cart. The technologies used include HTML, CSS, Vanilla JS",
+    image: '/images/3.png',
+    tags: ['HTML5', 'CSS', 'JavaScript'],
+    source: 'https://e-commerce-sneakers-tau.vercel.app/',
+    visit: 'https://github.com/dineshsuthar123/E-Commerce-Sneakers',
+    id: 5,
   },
 ];
 
