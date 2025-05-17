@@ -6,6 +6,7 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import NavDropDown from '../components/NavDropDown/index';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Projects />
       <Technologies />
       <Timeline />
+      <NavDropDown isOpen={true} />
     </Layout>
   );
 };

@@ -18,14 +18,15 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Personal-Financical-Tracker',
-    description: "A personal financial tracker is a tool that helps you monitor your income and expenses over time. ",
-    image: '/images/6.png',
-    tags: ['React', 'Next-JS', 'Tailwind', 'Javascript'],
-    source: 'https://personal-financial-tracker-three.vercel.app/',
-    visit: 'https://github.com/dineshsuthar123/Personal-Financial-Tracker',
+    title: 'Entity-Manager',
+    description: "EntityManager is a full-stack application that provides comprehensive entity management with a Spring Boot backend and React frontend. It features CRUD operations, advanced search, data import/export tools, and role-based access control, all wrapped in a modern Material UI interface.",
+    image: '/images/7.png',
+    tags: ['Spring Boot', 'React', 'TypeScript', 'Material UI', 'JWT Authentication', 'REST API'],
+    source: 'https://entity-manager.vercel.app/',
+    visit: 'https://github.com/dineshsuthar123/EntityManager',
     id: 2,
-  },
+  }
+  ,
   {
     title: 'ToDo App',
     description: "A ToDo App in which users can add & remove the tasks, marks them as completed, can view all active and completed tasks. The tasks will remain saved in the tasklist",
@@ -46,14 +47,15 @@ export const projects = [
     id: 4,
   },
   {
-    title: 'Sneakers',
-    description: "A responsive E-commerce product webpage which allows users to view the product gallery, Add, view and remove the product items from the cart. The technologies used include HTML, CSS, Vanilla JS",
-    image: '/images/3.png',
-    tags: ['HTML5', 'CSS', 'JavaScript'],
-    source: 'https://e-commerce-sneakers-tau.vercel.app/',
-    visit: 'https://github.com/dineshsuthar123/E-Commerce-Sneakers',
+    title: 'Personal-Financical-Tracker',
+    description: "A personal financial tracker is a tool that helps you monitor your income and expenses over time. ",
+    image: '/images/6.png',
+    tags: ['React', 'Next-JS', 'Tailwind', 'Javascript'],
+    source: 'https://personal-financial-tracker-three.vercel.app/',
+    visit: 'https://github.com/dineshsuthar123/Personal-Financial-Tracker',
     id: 5,
-  },
+  }
+  ,
 ];
 
 export const TimeLineData = [
