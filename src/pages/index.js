@@ -18,7 +18,6 @@ const Home = () => {
       <Projects />
       <Technologies />
       <Timeline />
-      <NavDropDown isOpen={true} />
     </Layout>
   );
 };
